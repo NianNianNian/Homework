@@ -7,3 +7,7 @@
 4，熟悉git 的 操作 和 github的使用;
 
 5, 熟悉bootstrap 的使用  http://www.w3schools.com/bootstrap
+
+6, 使用bootstrap 编写一个简单的静态个人主页的页面 ，可以参照模版
+
+7, 使用 nginx 或者 http-server 将上述的静态页面跑起来 ，通过nian.thu.io 能够访问
