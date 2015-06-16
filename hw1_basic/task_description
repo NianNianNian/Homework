@@ -9,5 +9,14 @@
 5, 熟悉bootstrap 的使用  http://www.w3schools.com/bootstrap
 
 6, 使用bootstrap 编写一个简单的静态个人主页的页面 ，可以参照模版
+https://github.com/imZack/resume-kelvin
+	包含：
+		个人教育经历；
+		个人照片；	
+		联系方式；
+		个人项目经历； 慢慢就有项目了
+		个人技能点； 一点一点来，不着急；
+		获得荣誉（不重要）；
+		。。。
 
 7, 使用 nginx 或者 http-server 将上述的静态页面跑起来 ，通过nian.thu.io 能够访问
