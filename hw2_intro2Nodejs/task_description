@@ -9,7 +9,11 @@
 5, nodejs + Express 框架  http://expressjs.com/starter/；
 
 6， mongodb 手册  http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/；
+	http://docs.mongodb.org/v2.2/tutorial/getting-started-with-the-mongo-shell/;
 
 7, nodejs 操作  mongodb ； Mongoose http://mongoosejs.com/index.html；
 
+***8***, http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
+   做出一个restful的Demo；
 
+9， 理解restful 架构 ： http://www.ruanyifeng.com/blog/2011/09/restful.html
