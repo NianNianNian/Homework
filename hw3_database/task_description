@@ -10,3 +10,4 @@
 
 6, chrome 安装 Postman 插件 测试nodejs程序 post get 请求；
 
+7, 仿照task3 中的例子， 实现一个静态页面操作mongodb 里面的数据；
