@@ -12,7 +12,7 @@ var db = monk('localhost:27017/test');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
-var Users = require('./api/address')
+var Users = require('./api/address');
 
 var app = express();
 
@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/main',address.helloworld)
+app.get('/main',address.helloworld);
 
 app.use('/', routes);
 app.use('/users', users);
