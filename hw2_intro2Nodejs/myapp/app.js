@@ -5,16 +5,19 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var mongo = require('mongodb');
-var monk = require('monk');
-var db = monk('localhost:27017/test');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
-var Users = require('./api/address');
+var Address = require('./api/address');
+//var Users = require('./api/users');
+var what = require('./api/nani');
 
 var app = express();
+
+
+//var mongoose = require("mongoose");
+//mongoose.connect('mongodb://localhost/test');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -28,7 +31,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/main',address.helloworld);
+app.get('/main',Address.address);
+//app.get('/listusers',Users.listUsers);
+app.get('/shenme',what.nan);
 
 app.use('/', routes);
 app.use('/users', users);

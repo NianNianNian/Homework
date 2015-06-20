@@ -9,4 +9,4 @@ var Comment = new Schema({
  
 mongoose.model( 'Comment', Comment );
  
-mongoose.connect( 'mongodb://localhost/express-comment' );
+mongoose.connect( 'mongodb://localhost/test' );
