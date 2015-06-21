@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+ <title>Visualizing Unemployment</title>
+ <link href="css/tipsy.css" rel="stylesheet" type="text/css" />
+<style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4em;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 220%;
+  margin-top: 25px;
+      }
+
+#colorselect {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4em;
+  padding: 0;
+  margin-left: 100px;
+  width: 500px;
+}
+
+form, form > * {
+    margin: 0;
+}
+
+form {
+   font-size: 120%;
+}
+b{
+  font-size: 18px;
+}
+.background {
+  fill: none;
+  pointer-events: all;
+}
+.rating {
+  font-size: 20px;
+  font-weight: bold;
+}
+#states {
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+#states .active {
+  fill-opacity: 1;
+}
+
+#mesh {
+    fill: none;
+    stroke: #fff;
+    stroke-width: .5px;
+    stroke-linejoin: round;
+    pointer-events: none;
+  }
+
+.state-label {
+    fill: #ccc;
+    fill-opacity: .9;
+    stroke: #000;
+    stroke-width: .4px;
+    font-size: 14px;
+    font-weight: 150;
+    text-anchor: middle;
+  }
+
+.legend {
+  font-size: 14px;
+
+}
+
+
+</style>
+<h1>U.S. Unemployment Rates</h1><br>
+<div id ="colorselect">
+<form><label>Select a color theme: <select id="colorScheme">
+              <option selected="selected" value="GrYlRd">Green Yellow Red</option>
+              <option value="YlGnBu">Yellow Green Blue</option>
+              <option value="YlGn">Yellow Green </option>
+              <option value="Oranges">Oranges</option>
+              <option value="Purples">Purples</option>
+              <option value="Reds">Reds</option>
+            </select></label>
+</form></div>
+<br>
+<body> 
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+<script src="js/jquery.tipsy.js"></script>
+<script src="js/colorbrewer.js"></script>
+<script src="js/unemployment-vis.js"></script>
+<br><br>
+</body>
+
