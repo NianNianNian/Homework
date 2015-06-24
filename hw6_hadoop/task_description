@@ -3,3 +3,6 @@
 2, http://hadoop.apache.org/docs/r1.0.4/cn/hdfs_design.html hdoop 中文文档
 
 3, http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.0/hadoop-2.7.0.tar.gz 获取hadop
+4, Map Reduce http://blog.jobbole.com/1321/  ; http://www.cnblogs.com/forfuture1978/archive/2010/11/14/1877086.html
+
+5, https://github.com/dominictarr/map-reduce   Nodejs + Mapreduce
