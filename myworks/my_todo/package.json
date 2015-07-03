@@ -1,0 +1,10 @@
+{
+"name": "My_todo",
+"version": "0.0.1",
+"description": "My testing todo",
+"main": "server.js",
+"author": "ian Zuomin",
+"dependencies": {
+"express": "latest",
+"mongoose": "latest"}
+}
