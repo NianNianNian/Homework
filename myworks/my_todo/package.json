@@ -3,7 +3,7 @@
 "version": "0.0.1",
 "description": "My testing todo",
 "main": "server.js",
-"author": "ian Zuomin",
+"author": "Nian Zuomin",
 "dependencies": {
 "express": "latest",
 "mongoose": "latest"}

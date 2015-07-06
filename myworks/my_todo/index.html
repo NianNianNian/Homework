@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=l">
 <title>My TODO app</title>
 
-<link rel="stylesheet" href="//netna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
 <script src="main.js"></script>
@@ -13,12 +13,10 @@
 
 <body ng-controller="mainController">
 <div class="container">
-<- Header ->
 <div class="jumbotron text-center">
 <h1>Angular TODO List by myself <span class="label label-info">{{ todos.length }}</span></h1>
 </div>
 
-<- List All ->
 <div id="todo-list" class="row">
 <div class="col-sm-4 col-sm-offset-4">
 <div class="checkbox" ng-repeat="todo in todos">
@@ -30,7 +28,6 @@
 </div>
 </div>
 
-<- All new Form to insert->
 <div id="todo-form" class="row">
 <div class="col-sm-8 col-sm-offset-2 text-center">
 <form>

@@ -1,9 +1,9 @@
 var express = require ( 'express' )
-var app = express()
+var app = express ()
 var mongoose = require ( 'mongoose' );
 
 //connect to the database
-mongoose.connect('mongodb://localhost:27017/angular0todo');
+mongoose.connect('mongodb://localhost:27017/My_todo');
 
 //configuration
 app.configure(function(){
@@ -14,7 +14,7 @@ app.configure(function(){
 	//change the HTML POST method
 	app.use(express.bodyParser());
 	//Simulates DELETE and PUT
-	appp.use(express.methodOverride());
+	app.use(express.methodOverride());
 });
 
 //LIsten on port 8080 and the server runs
@@ -56,7 +56,7 @@ app.post('/api/todos', function(req,res) {
 
 //delet a specific and returns all after removing everything
 app.delete('/api/todos/:todo', function(req,res) {
-	Todo,remove({
+	Todo.remove({
 		_id: req.params.todo
 	}, function(err,todo) {
 		if(err){res.send(err);}
