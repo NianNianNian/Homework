@@ -1,0 +1,6 @@
+{
+"name": "nodejslogin",
+"dependencies": {
+"express": "4.2.0",
+"mongoose": "2.6.3"
+}}
